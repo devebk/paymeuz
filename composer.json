@@ -1,0 +1,42 @@
+{
+    "name": "devebk/payme",
+    "description": "Payment system payme.uz",
+    "keywords": [
+        "devebk",
+        "payme.uz",
+        "payme uzbekistan",
+        "payme integration",
+        "laravel payme.uz packeage",
+        "payme uz for laravel"
+    ],
+    "homepage": "https://github.com/devebk/payme",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Biloliddin",
+            "email": "Biloliddin@bk.ru",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1"
+
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "devebk\\payme\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "devebk\\payme\\PaymeServiceProvider"
+            ],
+            "aliases": {
+                "Paymeuz": "devebk\\payme\\Facades\\Payme"
+            }
+        }
+    }
+}
