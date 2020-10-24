@@ -1,5 +1,5 @@
 {
-    "name": "devebk/payme",
+    "name": "devebk/paymeuz",
     "description": "Payment system payme.uz",
     "keywords": [
         "devebk",
@@ -24,18 +24,19 @@
 
     },
     "minimum-stability": "dev",
+    "prefer-stable" : true,
     "autoload": {
         "psr-4": {
-            "devebk\\payme\\": "src"
+            "devebk\\paymeuz\\": "src"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "devebk\\payme\\PaymeServiceProvider"
+                "devebk\\paymeuz\\PaymeServiceProvider"
             ],
             "aliases": {
-                "Paymeuz": "devebk\\payme\\Facades\\Payme"
+                "Paymeuz": "devebk\\paymeuz\\Facades\\Payme"
             }
         }
     }
