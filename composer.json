@@ -1,6 +1,7 @@
 {
     "name": "devebk/paymeuz",
     "description": "Payment system payme.uz",
+    "version": "1.0",
     "keywords": [
         "devebk",
         "payme.uz",
@@ -11,7 +12,6 @@
     ],
     "homepage": "https://github.com/devebk/payme",
     "license": "MIT",
-    "type": "library",
     "authors": [
         {
             "name": "Biloliddin",
